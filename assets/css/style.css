@@ -11,12 +11,14 @@ header {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
+
 } 
 
 nav {
 	position: absolute;
 	top: 110px;
 	right: 0;
+	
 }
 
 nav li {
@@ -30,6 +32,7 @@ nav a {
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+	font-family: 'Montserrat', sans-serif
 }
 
 nav a:hover {
@@ -53,10 +56,13 @@ nav a:hover {
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius:15px;
+	transition: 1s all;
 }
 
 .produtos li:hover {
 	border-color:#C78C19;
+	transform: scale(1.07);
+	
 	
 }
 
@@ -65,7 +71,8 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+	font-size: 30px;
+	
 }
 
 .produtos h2 {
@@ -86,7 +93,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("../img/bg.jpg");
 	padding: 40px 0;
 }
 
@@ -99,11 +106,30 @@ footer {
 
 
 main {
-	margin: 2rem;
+	margin: 0 auto;
+	
+}
+
+main.form-contato {
+	margin-left: 30px;
 }
 
 form {
 	margin:40px 0;
+	padding-top: 20px;
+}
+
+.titulo-contato {
+	font-size: 2rem;
+	margin: 0 auto;
+	font-weight: bold;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 2rem;
+	color: #555555;
+	text-shadow: 2px 2px lightgray; 
+
 }
 
 form label, form legend {
@@ -117,6 +143,8 @@ form label, form legend {
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
+	border-radius: 5px;
+	border: 1px solid gray;
 }
 
 .checkbox {
@@ -139,7 +167,7 @@ form label, form legend {
 
 .enviar:hover {
 	background: darkorange;
-	transform: scale(1.2);
+	transform: scale(1.06);
 
 }
 
