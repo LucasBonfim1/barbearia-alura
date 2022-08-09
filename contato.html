@@ -68,17 +68,19 @@
 
 				<fieldset>
 
-				<legend>Qual horário deseja ser atendido?</legend>
+				<legend style="padding-bottom: 10px;">Qual horário deseja ser atendido?</legend>
 
-				<div class="modal" tabindex="-1">
+				<a href="#abrirModal" style="text-decoration: none; padding:10px; background-color: blue; font-weight: bold; color: #fff; border-radius: 5px; ">Clique aqui</a>
+
+				<div id="abrirModal" class="modal" tabindex="-1">
 					<div class="modal-dialog">
 					  <div class="modal-content">
 						<div class="modal-header">
 						  <h5 class="modal-title text-center">Qual horário deseja ser atendido?</h5>
-						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
 						</div>
 						<div class="modal-body">
-					<input type="datetime-local" name="Horario" id="horario" onblur="mostraHora()">
+					
 
 						  <p>Modal body text goes here.</p>
 						</div>
