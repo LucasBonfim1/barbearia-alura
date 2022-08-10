@@ -12,8 +12,8 @@ $mensagem = addcslashes($_POST['mensagem']);
 
 $to = 'eubonfimlucas@gmail.com';
 $subject = 'Contato - Barbearia';
-$body = 'Nome: '.$nome. "\r\n".
-        "Email: "$email. "\r\n".
+$body = "Nome: ".$nome. "\r\n".
+        "Email: ".$email. "\r\n".
         "Telefone: ".$tel. "\r\n".
         "Mensagem: ".$mensagem;
 
