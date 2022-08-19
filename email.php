@@ -1,4 +1,5 @@
 <?php
+php.validate.executablepath
 
 if(isset($_POST['email']) && !empty($_POST['email'])) {
 
